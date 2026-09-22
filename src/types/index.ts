@@ -40,6 +40,7 @@ export interface Experience {
     type: 'full-time' | 'part-time' | 'contract' | 'internship' | 'freelance' | 'volunteer' | 'apprenticeship' | 'self-employed';
     logo?: string;
     logoBg?: string;
+    image?: string;
     link?: string;
     galleryImages?: string[];
     externalLink?: string | string[];
