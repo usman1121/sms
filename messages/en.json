@@ -1,0 +1,439 @@
+{
+    "navigation": {
+        "home": "Home",
+        "about": "Why YeneSchool",
+        "projects": "Modules",
+        "experience": "Stakeholders",
+        "skills": "Architecture",
+        "achievements": "Accreditations",
+        "blog": "Case Studies",
+        "gallery": "Live Tour",
+        "contact": "Book Demo",
+        "resume": "Request Proposal",
+        "tools": "Platform Stack",
+        "menu": {
+            "achievements": "Accreditations",
+            "achievementsDesc": "Ministry of Education standards & FinTech compliance",
+            "skills": "Architecture & Security",
+            "skillsDesc": "Multi-tenant NestJS, Postgres, Dexie offline sync",
+            "experience": "Stakeholder Portals",
+            "experienceDesc": "Director, Teacher, Finance, Registrar, Parent workflows",
+            "projects": "Core Feature Modules",
+            "projectsDesc": "24 unified educational & operational modules",
+            "blog": "Case Studies",
+            "blogDesc": "National exam remediation & cashless tuition insights",
+            "gallery": "Product Screenshots",
+            "galleryDesc": "Visual preview of director, parent, and finance portals"
+        },
+        "shortcuts": {
+            "volume1": "Volume I: Autonomous OS",
+            "volume2": "Volume II: Stakeholder Workflows",
+            "volume3": "Volume III: 24 Feature Modules",
+            "volume4": "Volume IV: Infrastructure & Security",
+            "preview": "Live Preview",
+            "idRef": "MODULE_REF"
+        }
+    },
+    "hero": {
+        "greeting": "The World's First AI-Director-Driven School OS",
+        "subtitle": "School Operations on True Autopilot • Built for Ethiopian Institutions",
+        "cta": {
+            "primary": "Book a Live Demo",
+            "secondary": "Explore 24 Modules",
+            "exploreMore": "View Features"
+        },
+        "badge": "Built for Ethiopian Schools • Addis Ababa",
+        "scroll": "Scroll to Explore",
+        "role": "School Operating System",
+        "description": "School operations on true autopilot while you sleep. By 07:00 AM, your leadership receives an executive briefing with pre-resolved operational actions—zero manual spreadsheets required."
+    },
+    "about": {
+        "title": "Why YeneSchool",
+        "subtitle": "The Ethiopian Exam Reality & True Operational Autopilot",
+        "description": "Over 1,000 schools across Ethiopia recorded zero passes on national entrance exams. YeneSchool solves this root cause through autonomous student remediation, while automating 5E lesson prep, attendance, and CBE/Telebirr finance.",
+        "stats": {
+            "experience": "Unified Modules",
+            "projects": "Partner Schools",
+            "certifications": "MoE Standard",
+            "competitions": "Audit Readiness"
+        },
+        "identity": "Autonomous System Online",
+        "architecting": "Transforming",
+        "digitalReality": "Ethiopian Classrooms",
+        "leadIn": {
+            "label": "THE ETHIOPIAN EXAM REALITY",
+            "tagline": "WHY WE BUILT YENESCHOOL",
+            "headlineAI": "Autonomous AI Director.",
+            "headlineData": "Adaptive Student Remediation.",
+            "headlineSoftware": "Cashless CBE & Telebirr Finance",
+            "thesis": "Over 1,000 schools had zero passes not from lack of effort, but because students study without knowing <span class='text-primary italic font-serif-elegant font-normal'>what they actually understand</span>.",
+            "scope": "YeneSchool continuously isolates difficult units and automatically builds targeted confidence booster practice questions directly on the student portal.",
+            "bridging": "Zero teacher workload.",
+            "integration": "The AI Director audits yesterday's attendance, flags syllabus delays, drafts 5E lesson bundles, and balances fee records while you sleep.",
+            "signature": "YeneSchool",
+            "role": "School Operating System",
+            "aboutMe": "Why YeneSchool",
+            "scroll": "Scroll to Explore",
+            "shortStory": "Our Mission"
+        },
+        "coreEngineering": {
+            "label": "Enterprise Infrastructure",
+            "title": "Built for <span class='text-primary italic font-serif font-light lowercase'>Ethiopia.</span> <br /> Offline-First <span class='italic font-serif font-light text-foreground'>Reliability.</span>",
+            "p1": "Full-stack multi-tenant platform powered by NestJS 11, Prisma 7, and PostgreSQL 16 with Redis BullMQ background queue workers.",
+            "p2": "Offline-first attendance and assessment capture powered by Dexie.js (IndexedDB) with resilient background synchronization when connection restores.",
+            "p3": "Native integrations with Commercial Bank of Ethiopia (CBE Birr), Telebirr, Telegram Bot API, and Ethiopian Calendar (Ge'ez).",
+            "gpa": "24 Modules",
+            "projects": "100+ Schools",
+            "years": "100% Audit Ready"
+        },
+        "emergingResearch": {
+            "label": "Autonomous AI Capabilities",
+            "title": "INTELLIGENT CAMPUS <span class='italic font-serif font-light text-primary lowercase'>&</span> ADAPTIVE ENGINES",
+            "agentic": {
+                "title": "AUTONOMOUS AI DIRECTOR",
+                "desc": "Runs night audits on attendance, detects syllabus delays against the academic calendar, and drafts morning 07:00 AM actionable briefings for the school principal."
+            },
+            "web3": {
+                "title": "TELEBIRR & CBE CASHLESS RECONCILIATION",
+                "desc": "Direct banking gateway integrations that match payments in real-time, eliminating paper bank slips, reducing bursar workload by 40+ hours, and ending fraud."
+            }
+        },
+        "profile": {
+            "title": "One Unified Operating System <br /> For Leadership, Teachers, Parents & Students.",
+            "narrativeLabel": "Stakeholder Unification",
+            "narrative": "Traditional schools struggle with fragmented tools: paper registers, Excel marksheets, manual banking receipts, and disjointed communication.",
+            "narrative2": "YeneSchool brings the entire academic lifecycle into a single synchronized platform designed for Ethiopian educational standards.",
+            "pillars": {
+                "reliable": {
+                    "title": "Autonomous Remediation",
+                    "desc": "Diagnostic booster exams generated automatically when scores dip below 50%."
+                },
+                "optimized": {
+                    "title": "5E Lesson Preparation",
+                    "desc": "Curriculum-aligned Engage, Explore, Explain, Elaborate, and Evaluate lesson plans in 1 click."
+                },
+                "maintainable": {
+                    "title": "Instant Telegram Alerts",
+                    "desc": "Bilingual parent updates in Amharic & English the moment grades drop or absences occur."
+                },
+                "evolvable": {
+                    "title": "Ethiopian Calendar Native",
+                    "desc": "Dual Ge'ez and Gregorian calendar scheduling, attendance tracking, and MoE report cards."
+                }
+            }
+        },
+        "closing": {
+            "experience": {
+                "label": "STAKEHOLDERS",
+                "title1": "ROLE-BASED",
+                "title2": "WORKFLOWS",
+                "viewMore": "All Stakeholders"
+            },
+            "projects": {
+                "label": "FEATURE SUITES",
+                "title1": "FLAGSHIP",
+                "title2": "MODULES",
+                "viewMore": "Explore All 24 Modules"
+            },
+            "experiencesList": [
+                {
+                    "company": "Executive Directors & Principals",
+                    "role": "AUTOPILOT COCKPIT & 07:00 AM BRIEFINGS",
+                    "desc": "Comprehensive institutional oversight: attendance audits, syllabus pacing, teacher workload balance, and financial cash flow."
+                },
+                {
+                    "company": "Teaching Faculty & Department Heads",
+                    "role": "5E LESSON PREP & AUTOMATED QUIZZING",
+                    "desc": "Textbook page mappings, student scaffolding, confidential answer keys, and automatic gradebook calculations."
+                },
+                {
+                    "company": "Finance & Bursar Teams",
+                    "role": "TELEBIRR & CBE BIRR INSTANT RECONCILIATION",
+                    "desc": "Automated ledger matching, digital SMS receipts, fee installment tracking, and zero paper deposit slips."
+                },
+                {
+                    "company": "Registrars & Admissions",
+                    "role": "MINISTRY REPORT CARDS & ETHIOPIAN CALENDAR",
+                    "desc": "Tamper-proof QR report cards, class percentile rankings, biometric attendance, and Ge'ez calendar term dates."
+                },
+                {
+                    "company": "Parents & Guardians",
+                    "role": "REAL-TIME TELEGRAM NOTIFICATIONS & PORTAL",
+                    "desc": "Direct academic updates in Amharic and English, absence notifications, fee status, and home study guidance."
+                }
+            ],
+            "projectsList": [
+                {
+                    "title": "Autonomous AI Director",
+                    "desc": "Zero-touch morning audit briefings, syllabus delay alerting, and automated administrative recommendations."
+                },
+                {
+                    "title": "Autonomous Student Remediation",
+                    "desc": "Adaptive confidence booster quizzes that pinpoint weak topics and raise Grade 12 national entrance exam scores."
+                },
+                {
+                    "title": "Cashless Tuition & Finance Engine",
+                    "desc": "Direct API integration with CBE Birr, Telebirr, and Chapa for automated tuition fee reconciliation."
+                },
+                {
+                    "title": "AI 5E Lesson Planning Workspace",
+                    "desc": "One-click 5E curriculum alignment mapped directly to official Ethiopian Ministry of Education textbooks."
+                }
+            ]
+        }
+    },
+    "project": {
+        "title": "Modules & Feature Suites",
+        "subtitle": "24 modular engines designed for the operational, academic, and financial reality of Ethiopian schools.",
+        "exploreAll": "Explore All Modules",
+        "search": "Search modules...",
+        "filter": {
+            "all": "All Modules",
+            "ongoing": "Active",
+            "completed": "Production Ready",
+            "planned": "Upcoming"
+        },
+        "viewDetails": "View Module Details",
+        "liveDemo": "Book Live Demo",
+        "sourceCode": "Documentation",
+        "highlights": "Key Capabilities",
+        "challenges": "Operational Impact",
+        "technologies": "Architecture Stack",
+        "back": "Back to Modules",
+        "noProjects": "No modules found matching criteria."
+    },
+    "projects": {
+        "title": "Modules & Feature Suites",
+        "subtitle": "24 modular engines designed for the operational, academic, and financial reality of Ethiopian schools.",
+        "exploreAll": "Explore All Modules",
+        "search": "Search modules...",
+        "sections": {
+            "missionBrief": "Module Overview",
+            "keyFeatures": "Core Capabilities",
+            "engineeringChronicles": "Operational Impact & Architecture",
+            "solution": "System Solution",
+            "visualGallery": "Module Preview & Dashboards",
+            "installation": "Deployment & Integrations",
+            "projectAccess": "Module Access",
+            "liveDemo": "Book Live Demo",
+            "sourceCode": "Documentation",
+            "technologies": "Architecture Stack",
+            "contents": "On This Page",
+            "viewMore": "View More Dashboards",
+            "viewLess": "View Less"
+        }
+    },
+    "experience": {
+        "title": "Stakeholder Workflows",
+        "subtitle": "Tailored interfaces designed for every role in the school ecosystem.",
+        "roles": {
+            "fullTime": "Full Suite",
+            "partTime": "Module",
+            "contract": "Integration",
+            "internship": "Portal",
+            "freelance": "Add-on"
+        },
+        "present": "Active",
+        "keyLearnings": "Key Capabilities",
+        "impact": "Operational Impact"
+    },
+    "skills": {
+        "title": "Architecture & Security",
+        "subtitle": "Enterprise multi-tenancy, offline-first reliability, and strict role-based access control.",
+        "categories": {
+            "all": "All Systems",
+            "frontend": "Client Apps",
+            "backend": "Backend Core",
+            "database": "Data & Offline",
+            "ai": "AI Engines",
+            "cloud": "Infrastructure",
+            "mobile": "Mobile & Telegram"
+        },
+        "level": {
+            "beginner": "Standard",
+            "intermediate": "Advanced",
+            "advanced": "Enterprise",
+            "expert": "Production Grade"
+        }
+    },
+    "achievements": {
+        "title": "Accreditations & Compliance",
+        "subtitle": "Built in full alignment with national educational and financial standards.",
+        "types": {
+            "all": "All Standards",
+            "certification": "Accreditations",
+            "award": "Awards",
+            "recognition": "Partnerships"
+        },
+        "viewCredential": "View Compliance Document",
+        "credentialId": "Registration ID"
+    },
+    "contact": {
+        "title": "Book a Live Demo",
+        "subtitle": "Experience how the Autonomous AI Director puts your school operations on autopilot.",
+        "form": {
+            "name": "Your Name / School Representative",
+            "namePlaceholder": "Ato Abebe / Dr. Sarah",
+            "email": "Official Email Address",
+            "emailPlaceholder": "director@yourschool.edu.et",
+            "subject": "School Name & Estimated Students",
+            "subjectPlaceholder": "e.g. Addis International Academy (1,200 Students)",
+            "message": "Tell us about your school requirements",
+            "messagePlaceholder": "We want to automate attendance, integrate Telebirr/CBE fees, and use the AI remediation engine...",
+            "send": "Request Executive Demo",
+            "sending": "Submitting Request...",
+            "success": "Thank you! Our Addis Ababa team will contact you within 24 hours.",
+            "error": "Failed to submit. Please contact us via phone or Telegram."
+        },
+        "info": {
+            "title": "Headquarters",
+            "location": "HUMAN Tech PLC, Addis Ababa, Ethiopia",
+            "email": "contact@yeneschool.com",
+            "phone": "+251 91 100 0000",
+            "availability": "Monday – Friday: 08:00 AM – 06:00 PM EAT"
+        }
+    },
+    "footer": {
+        "headline": "THE WORLD'S FIRST AI-DIRECTOR SCHOOL OS",
+        "tagline": "School Operations on True Autopilot",
+        "statusOnline": "SYSTEM_HEALTH: 100% OPERATIONAL",
+        "statusOffline": "STATUS: OFFLINE",
+        "designedWith": "Built with precision by HUMAN Tech PLC in Addis Ababa, Ethiopia",
+        "allRightsReserved": "All rights reserved. YeneSchool™.",
+        "quickLinks": "Quick Navigation",
+        "social": "Connect",
+        "contact": "Contact Us",
+        "backToTop": "Back to top",
+        "more": "More",
+        "marquee": {
+            "0": "AI AUTONOMOUS DIRECTOR",
+            "1": "ADAPTIVE STUDENT REMEDIATION",
+            "2": "TELEBIRR & CBE CASHLESS FINANCE",
+            "3": "ETHIOPIAN CALENDAR & MINISTRY REPORT CARDS",
+            "4": "OFFLINE-FIRST ATTENDANCE SYNC",
+            "5": "5E LESSON PLAN GENERATOR"
+        },
+        "localTime": "Addis Ababa (EAT)",
+        "location": "Addis Ababa, Ethiopia",
+        "versionEdition": "2026 Enterprise Edition"
+    },
+    "ctaSection": {
+        "title": "Put Your School Operations On",
+        "together": "AI Autopilot",
+        "subtitle": "Join leading educational institutions across Ethiopia eliminating paperwork, automating morning audits, and driving national exam success with YeneSchool.",
+        "start": "Schedule Executive Demo",
+        "work": "Explore 24 Modules",
+        "words": {
+            "amazing": "AUTONOMOUS",
+            "innovative": "UNIFIED",
+            "intelligent": "AI-POWERED",
+            "creative": "EFFORTLESS"
+        },
+        "ribbon1": "AI DIRECTOR • ADAPTIVE REMEDIATION • TELEBIRR INTEGRATION • ETHIOPIAN CALENDAR • OFFLINE SYNC • 5E LESSON PLANS •",
+        "ribbon2": "PUT YOUR SCHOOL ON AUTOPILOT • ZERO SPREADSHEETS • 100% AUDIT READY • BOOK A LIVE DEMO TODAY •"
+    },
+    "stats": {
+        "systemStatus": "System Status: Core Engine Online",
+        "portfolio": "Institutional Scale",
+        "totalPulse": "Active Students",
+        "peakActivity": "Morning Audits Done",
+        "dailyAverage": "Daily Attendance",
+        "currentSprint": "Current Term",
+        "engageFlow": "Parent Engagement",
+        "weeklyEffort": "Remediation Sessions",
+        "processSpeed": "Sync Speed",
+        "avgPerf": "System Uptime",
+        "latency": "LATENCY: 8MS",
+        "system": "SYSTEM: YENESCHOOL_CORE_V2",
+        "scanning": "SCANNING_CAMPUS_RESOURCES",
+        "engineering": "CAMPUS",
+        "metrics": "METRICS",
+        "analyticsSub": "ANALYTICS / ACADEMICS / FINANCIAL HEALTH",
+        "statusOnline": "STATUS: 100% OPERATIONAL",
+        "loadStable": "CAMPUS_LOAD: OPTIMAL"
+    },
+    "projectHeader": {
+        "title": "24 Integrated Modules",
+        "subtitle": "A unified platform built specifically for the operational, academic, and financial reality of Ethiopian schools."
+    },
+    "common": {
+        "loading": "Loading YeneSchool OS...",
+        "error": "Something went wrong",
+        "notFound": "Page not found",
+        "backHome": "Back to Home",
+        "viewMore": "Explore More",
+        "readMore": "Read Case Study",
+        "close": "Close",
+        "download": "Download Brochure",
+        "share": "Share",
+        "scrollAudit": "Scroll to explore"
+    },
+    "technical": {
+        "github": {
+            "title": "Platform Health & Sync",
+            "description": "Continuous cloud-edge synchronization across schools.",
+            "total": "Sync Events",
+            "thisWeek": "This Week",
+            "best": "Peak Sync",
+            "average": "Average",
+            "less": "Offline",
+            "more": "Synced"
+        },
+        "wakatime": {
+            "title": "System Performance",
+            "description": "Real-time query and task throughput.",
+            "lastUpdate": "Last Updated",
+            "startDate": "Start Date",
+            "endDate": "End Date",
+            "dailyAverage": "Daily Briefings",
+            "totalWeek": "Audit Reports",
+            "bestDay": "Peak Day",
+            "totalSince": "Total Since Launch",
+            "topLanguages": "Core Stack"
+        }
+    },
+    "blog": {
+        "title": "Case Studies & Educational Insights",
+        "subtitle": "Practical research on reversing national exam failure rates, cashless tuition collection, and modern pedagogical workflows.",
+        "sectionBadge": "Knowledge Center",
+        "search": "Search case studies...",
+        "readTime": "min read",
+        "readMore": "Read Full Case Study",
+        "back": "Back to Case Studies",
+        "noResults": "No articles found",
+        "categories": {
+            "applied-ai": "AI & Remediation",
+            "software-development": "FinTech & Systems",
+            "about-me": "Operations",
+            "more": "Pedagogy"
+        }
+    },
+    "gallery": {
+        "title": "Live System Tour",
+        "subtitle": "Visual walkthrough of Director Cockpit, Teacher Workspace, Cashless Finance, and Parent App.",
+        "filter": {
+            "all": "All Portals",
+            "image": "Screenshots",
+            "video": "Video Walkthroughs"
+        },
+        "viewMedia": "View Preview"
+    },
+    "chatbot": {
+        "title": "YeneSchool AI Assistant",
+        "subtitle": "Ask questions about YeneSchool OS",
+        "placeholder": "Ask about modules, pricing, or the AI Director...",
+        "greeting": "Selam! 👋 I am the **YeneSchool AI Assistant**.\n\nI can explain everything about:\n- The Autonomous AI Director & morning briefings\n- Grade 12 Adaptive Student Remediation\n- CBE Birr and Telebirr tuition payments\n- 5E Lesson Planning for teachers\n- Offline attendance & Ethiopian Calendar support\n\nHow can I help your school today?",
+        "suggestions": [
+            "How does the AI Director work?",
+            "How does student remediation help exam pass rates?",
+            "How does Telebirr and CBE payment work?",
+            "Can YeneSchool work without internet?"
+        ],
+        "error": "An error occurred. Please try again.",
+        "invalidResponse": "Invalid response from server.",
+        "unknownError": "An unknown error occurred.",
+        "retry": "Try again",
+        "inputHint": "Enter to send, Shift+Enter for newline",
+        "close": "Close chat"
+    }
+}

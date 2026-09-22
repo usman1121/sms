@@ -1,0 +1,318 @@
+{
+  "academic": {
+    "title": "Academic Management",
+    "desc": "Controls the school structure that every other workflow depends on, including Ethiopian academic periods and school grade-system settings.",
+    "roles": "Director, Supervisor",
+    "items": [
+      "Academic years, terms, quarters, semesters, and current-period selection",
+      "Grade-system setup for Grade 1-8 or Grade 1-12 schools",
+      "Classes, sections, capacity syncing, and homeroom teachers",
+      "Subjects, class-subject links, and teacher subject assignments",
+      "Timetable slots, period times, and school calendar records",
+      "Feeds attendance, grading, report cards, promotion, and exam seating"
+    ]
+  },
+  "student": {
+    "title": "Student Management",
+    "desc": "Manages the full student lifecycle from admission request to active enrollment, credentials, documents, and yearly movement.",
+    "roles": "Director, Registrar",
+    "items": [
+      "Enrollment requests with approval, rejection, waitlist, and credential generation",
+      "Student profile records with parent and guardian relationships",
+      "Class, section, roll number, stream, and academic-year placement",
+      "Bulk upload for students and users with generated credential exports",
+      "ID card generation and document records tied to student profiles",
+      "Promotion history, retained/promoted status, and transfer-ready records"
+    ]
+  },
+  "attendance": {
+    "title": "Attendance",
+    "desc": "Session-based attendance built for teachers, admins, parents, and unreliable connectivity.",
+    "roles": "Teacher, Director, Parent",
+    "items": [
+      "Teacher attendance entry by class, section, date, and period context",
+      "Attendance sessions with submitted status and per-student records",
+      "Offline attendance capture and sync endpoints for local-first workflows",
+      "Director attendance overview, missing-session follow-up, and reports",
+      "Parent and student attendance pages scoped to the selected academic year",
+      "Absence and late notification flow for parent-visible updates"
+    ]
+  },
+  "marks": {
+    "title": "Marks & Report Cards",
+    "desc": "Connects teacher score entry, assessment setup, publishing readiness, report cards, certificates, and year-end promotion.",
+    "roles": "Director, Teacher, Parent, Student",
+    "items": [
+      "Assessment setup, assessment subjects, weights, score status, and grading scales",
+      "Teacher marks entry with admin assessment and entry-progress visibility",
+      "Exam results, rankings, publish-results workflow, and report-card readiness checks",
+      "Bulk report-card generation, publish summary, parent/student published views",
+      "Certificate template, watermark upload, single PDF, and bulk ZIP downloads",
+      "Promotion candidates with published report-card and eligibility checks"
+    ]
+  },
+  "finance": {
+    "title": "Finance",
+    "desc": "Separates fee setup, assigned student balances, receipts, discounts, overdue follow-up, and parent-facing fee visibility.",
+    "roles": "Finance, Parent",
+    "items": [
+      "Fee structures by academic year, category, grade range, and installment plan",
+      "Student fee assignment, outstanding balances, payment status, and receipts",
+      "Discount policies, reversals, audit logs, and finance summaries",
+      "Overdue reports, total overdue counts, and export-friendly report pages",
+      "Parent fee views connected to published student finance records",
+      "Payroll page and finance-only navigation for restricted money workflows"
+    ]
+  },
+  "communication": {
+    "title": "Communication Book",
+    "desc": "Combines public announcements, school communication books, internal messaging, notifications, and events.",
+    "roles": "Director, Teacher, Parent, Student",
+    "items": [
+      "Announcements with active counts, audience filtering, and notification creation",
+      "Communication book records with categories, status, and reply threads",
+      "Internal chat rooms, conversations, messages, participants, and read tracking",
+      "Notification preferences, push subscriptions, and role-targeted notifications",
+      "School events and calendar-visible operational updates",
+      "Dedicated messages, announcements, and communications pages in the dashboard"
+    ]
+  },
+  "localSupport": {
+    "title": "Local School Support",
+    "desc": "Handles the local constraints that generic school systems usually miss: languages, calendars, grade models, and Ethiopian academic periods.",
+    "roles": "Director, Supervisor",
+    "items": [
+      "English, Amharic, Arabic, Oromo, and Somali UI language support",
+      "Ethiopian and Gregorian calendar workflows for school operations",
+      "Grade 1-8 and Grade 1-12 mode driven by school settings",
+      "Local academic periods, term labels, and current academic-year behavior",
+      "Grade 6 and Grade 8 national-exam style workflows for primary/middle schools",
+      "School-specific settings for logos, profile, branding, and operational defaults"
+    ]
+  },
+  "lessons": {
+    "title": "Lessons & Assignments",
+    "desc": "Connects teacher lesson activity, class work, homework, and parent/student visibility to the academic timetable.",
+    "roles": "Teacher, Student, Parent",
+    "items": [
+      "Teacher lesson records tied to assigned classes, sections, subjects, and timetable periods",
+      "Assignments and class work visible to students and linked parents",
+      "Lesson progress signals for admin and teacher dashboards",
+      "Teacher workspace for daily class activity and follow-up tasks",
+      "Student views for lessons, assignments, timetable, and academic work",
+      "Parent visibility into assigned learning tasks without separate message groups"
+    ]
+  },
+  "syllabus": {
+    "title": "Syllabus & Curriculum",
+    "desc": "Organizes subject syllabi and curriculum coverage so teachers, directors, and supervisors can track what is taught against the academic calendar.",
+    "roles": "Director, Teacher, Supervisor",
+    "items": [
+      "Subject syllabus outlines with units, chapters, and topics per grade and section",
+      "Curriculum progress tracking against terms and the academic calendar",
+      "Teacher lesson-to-syllabus linking showing covered and remaining topics",
+      "Progress dashboards for directors and supervisors across classes and subjects",
+      "Pacing alerts when coverage falls behind the planned schedule",
+      "Syllabus documents and resources attached to each subject and class"
+    ]
+  },
+  "automation": {
+    "title": "Automation & Reporting",
+    "desc": "Turns operational data into dashboards, board-ready reports, and follow-up lists rather than disconnected exports.",
+    "roles": "Director, Finance, Supervisor",
+    "items": [
+      "Director, teacher, parent, student, registrar, and finance dashboards",
+      "Teacher leaderboard using attendance, grading timeliness, lessons, and related metrics",
+      "Parent presentation report with overview, class comparison, subject comparison, and insights",
+      "School data health checks for consistency and maintenance follow-up",
+      "Finance reports, overdue summaries, academic reports, and attendance trends",
+      "Backups, exports, search-like raw queries, and audit-friendly operational records"
+    ]
+  },
+  "operations": {
+    "title": "Operations",
+    "desc": "Supports the daily routines that keep the school moving: bells, templates, imports, device hooks, and operational alerts.",
+    "roles": "Director, Supervisor",
+    "items": [
+      "Siren schedules, siren events, manual ring action, and browser audio fallback",
+      "Hardware bell configuration and webhook-friendly siren controller routes",
+      "Dynamic timetable sirens scoped to the assigned teacher for the current period",
+      "Period-time setup and timetable-driven start/end-of-class alerts",
+      "Document templates for school records and generated outputs",
+      "Bulk import/export and operational notifications across school workflows"
+    ]
+  },
+  "admissions": {
+    "title": "Admissions & Enrollment",
+    "desc": "Moves applicants from public enrollment into active student, parent, class, and credential records.",
+    "roles": "Registrar, Director",
+    "items": [
+      "Public school pages and enrollment request forms for applicants",
+      "Registrar/admin review with approve, reject, and waitlist flows",
+      "Encrypted enrollment tokens and configured frontend enrollment URLs",
+      "Credential generation for student and parent accounts after approval",
+      "Class placement, section placement, roll numbers, and parent linkage",
+      "Admission details including nationality, documents, guardians, and profile fields"
+    ]
+  },
+  "exams": {
+    "title": "Exams",
+    "desc": "Covers formal school exams, seating logistics, result entry, publishing readiness, and exam-related registrar workflows.",
+    "roles": "Director, Teacher, Student, Registrar",
+    "items": [
+      "Assessment and exam setup, result entry, publish-results flow, rankings, and entry progress",
+      "Exam seating plans, section assignments, exam-section students, and seating modes",
+      "Current-period exam visibility for teachers, students, and parents",
+      "Publishing workflow that validates completion before releasing results",
+      "Registrar national exams and school-leaving workflows where enabled by grade system",
+      "Report-card readiness checks connected to formal exam and assessment data"
+    ]
+  },
+  "onlineExams": {
+    "title": "Online Examinations",
+    "desc": "Lets teachers create controlled online exams while students complete timed attempts with saved answers and result feedback.",
+    "roles": "Teacher, Student, Director",
+    "items": [
+      "Teacher-created online exams tied to assigned class, section, subject, grade, and stream",
+      "Draft, ready, active, archived, duration, pass mark, access-code, and shuffle-question controls",
+      "Question banks with multiple choice, true/false, and short-answer support",
+      "Student online examination list filtered by grade and stream with required access code",
+      "Timed attempts with local draft recovery, autosave, flagged questions, submit, and expiry handling",
+      "Automatic scoring, correct/wrong/skipped counts, percentage, pass-mark result, and submitted-at review"
+    ]
+  },
+  "portals": {
+    "title": "User Portals",
+    "desc": "Gives each role a focused workspace so users only see the work they are responsible for.",
+    "roles": "All roles",
+    "items": [
+      "Super admin portal for schools, admins, subscriptions, backups, and platform settings",
+      "Director portal for academics, enrollment, reports, assessments, siren, people, and operations",
+      "Teacher portal for classes, attendance, lessons, timetable, grading, and online exams",
+      "Parent portal for children, attendance, grades, fees, lessons, discipline, and timetable",
+      "Student portal for timetable, attendance, lessons, grades, exams, and practice exams",
+      "Registrar, finance, and IT manager workspaces with narrower operational responsibilities"
+    ]
+  },
+  "staff": {
+    "title": "Staff Directory & Responsibilities",
+    "desc": "Connects people records to responsibilities, assignments, credentials, departments, and accountability reporting.",
+    "roles": "Director, Supervisor",
+    "items": [
+      "Teacher profiles, staff records, departments, and employee documents",
+      "Teacher subject assignments and class-subject responsibility tracking",
+      "Generated credentials, pending credential queue, password reset support, and CSV exports",
+      "Teacher class pages, assigned students, timetable, lessons, attendance, and grading",
+      "Performance visibility through teacher leaderboard and dashboard metrics",
+      "User management through bulk upload, role assignment, and profile management"
+    ]
+  },
+  "security": {
+    "title": "Security & Permissions",
+    "desc": "Protects tenant data with role permissions, school scoping, subscription feature gates, rate limits, and maintenance controls.",
+    "roles": "Super Admin, Supervisor",
+    "items": [
+      "JWT login with cookie or bearer token support, password reset, and password change flows",
+      "Role guards for ADMIN, IT_MANAGER, REGISTRAR, TEACHER, STUDENT, PARENT, and FINANCE",
+      "Permission overrides through role permissions and user-specific permissions",
+      "School-level tenant isolation through request body, params, and query schoolId checks",
+      "Subscription feature checks for finance, parent portal, and plan-gated capabilities",
+      "Global rate limiting and platform maintenance mode"
+    ]
+  },
+  "search": {
+    "title": "Search & Data Quality",
+    "desc": "Helps staff find records quickly and keep operational data clean enough for reports, exports, and audits.",
+    "roles": "Director, Supervisor",
+    "items": [
+      "Cross-entity search endpoints for fast record lookup",
+      "Data consistency report page for school data health review",
+      "Duplicate and missing-record style checks for operational maintenance",
+      "Audit-friendly finance logs, grade change logs, credentials, and notification records",
+      "Export-ready information from reports, credentials, finance, certificates, and bulk operations",
+      "Backups and platform-level operational support for safer maintenance"
+    ]
+  },
+  "ai": {
+    "title": "Autonomous AI Director",
+    "desc": "Conducts midnight operational audits, generates morning executive briefings, enforces assessment deadlines, and provides 24/7 multilingual parent dialogue.",
+    "roles": "Director, Teacher, Parent",
+    "items": [
+      "Autonomous 01:00 AM midnight audit & 07:00 AM executive briefings",
+      "Proactive 24/7 multilingual parent dialogue in Amharic, Afaan Oromo, Somali, and English",
+      "AI Report Generator that produces academic reports, summaries, and executive insights from live school data",
+      "AI Smart Alerts that detect anomalies, attendance patterns, and operational bottlenecks requiring attention",
+      "AI Recommendations engine for personalized student learning paths and school improvement suggestions",
+      "AI School Assessment that evaluates overall school performance, trends, and benchmarking",
+      "Natural language processing across attendance, marks, finance, and communication data",
+      "At-risk student detection based on attendance, grades, and engagement signals",
+      "Syllabus and curriculum progress tracking against the academic calendar",
+      "Standing autonomous operational directives with 1-click administrative authorization"
+    ]
+  },
+  "backup": {
+    "title": "Backup & Data Export",
+    "desc": "Protects school data with automated platform backups, per-school export options, and downloadable archives.",
+    "roles": "Super Admin, Supervisor",
+    "items": [
+      "Automated platform backup with full database and file system snapshot",
+      "Per-school backup download with configurable data type selection",
+      "ZIP file generation, archive cleanup, and secure storage management",
+      "Credential roll CSV export and bulk upload template downloads",
+      "Password validation, roll number assignment, and credential tracking statistics",
+      "Maintenance-ready operational safety net for platform and school recovery"
+    ]
+  },
+  "idCards": {
+    "title": "ID Cards & Certificates",
+    "desc": "Generates student ID cards and school certificates with customizable templates, watermarks, and bulk printing.",
+    "roles": "Director, Registrar",
+    "items": [
+      "Student ID card generation with template selection and watermark overlay",
+      "Single and bulk PDF output with print-ready card layouts",
+      "Certificate templates with dynamic field mapping for student data",
+      "Watermark image upload, activation, and positioning controls",
+      "Bulk ZIP download for certificates and ID cards by class or section",
+      "Template management with active version tracking and field configuration"
+    ]
+  },
+  "discipline": {
+    "title": "Discipline & Conduct",
+    "desc": "Keeps behavior notes, conduct follow-up, and parent-visible discipline records connected to the student profile.",
+    "roles": "Director, Teacher, Parent",
+    "items": [
+      "Student discipline records scoped to the correct school and academic context",
+      "Conduct notes that can support report-card and parent follow-up workflows",
+      "Parent portal visibility for published discipline updates where the school allows it",
+      "Director follow-up lists for student behavior and support actions",
+      "Teacher and registrar context when reviewing a student profile",
+      "Audit-friendly records for sensitive student conduct decisions"
+    ]
+  },
+  "events": {
+    "title": "Events & Calendar",
+    "desc": "Manages school events, holidays, and calendar visibility for staff, students, and parents.",
+    "roles": "Director, Teacher, Student, Parent",
+    "items": [
+      "School events CRUD with dates, descriptions, and category tagging",
+      "Calendar feed integration for upcoming and active event visibility",
+      "Holiday scheduling and academic calendar records tied to school settings",
+      "Upcoming event counts and active event tracking for dashboards",
+      "Event integration with announcements and notification workflows",
+      "Role-based event viewing scoped to the correct school and academic year"
+    ]
+  },
+  "messaging": {
+    "title": "Staff Messaging",
+    "desc": "Enables internal staff-to-staff communication with conversations, messages, and role-based access.",
+    "roles": "Director, Teacher, Finance, Supervisor",
+    "items": [
+      "Internal chat rooms and conversation management for staff collaboration",
+      "Staff-to-staff messaging with participant tracking and conversation history",
+      "Mark-as-read confirmation and unread count indicators for each conversation",
+      "Staff directory for finding and initiating conversations across the school",
+      "Role-based conversation visibility and access controls",
+      "Dedicated messages page integrated into each role's dashboard workspace"
+    ]
+  }
+}
