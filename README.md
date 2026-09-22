@@ -1,172 +1,144 @@
 <div align="center">
 
-<img src="public/Arfazrll_light.svg" alt="Project Logo" width="80" height="80" />
+<img src="public/yeneschool/logo.svg" alt="YeneSchool OS Logo" width="88" height="88" />
 
-# Syahril Arfian Almazril — Technical Portfolio
+# YeneSchool OS
 
-### Engineering AI Systems, Scalable Software, and Data Architectures
+### The World's First Autonomous AI-Director School Operating System
+**Built for Ethiopian K–12 and Higher Educational Institutions**
 
-[![Next.js](https://img.shields.io/badge/Next.js-16.1.6-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)](https://nextjs.org/)
-[![React](https://img.shields.io/badge/React-19.2.4-61DAFB?style=for-the-badge&logo=react&logoColor=black)](https://react.dev/)
+[![Next.js](https://img.shields.io/badge/Next.js-16-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)](https://nextjs.org/)
+[![React](https://img.shields.io/badge/React-19-61DAFB?style=for-the-badge&logo=react&logoColor=black)](https://react.dev/)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.3-3178C6?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
 [![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-3.4-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)](https://tailwindcss.com/)
-[![Three.js](https://img.shields.io/badge/Three.js-0.170-000000?style=for-the-badge&logo=threedotjs&logoColor=white)](https://threejs.org/)
-[![Vercel](https://img.shields.io/badge/Deployed_on-Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://vercel.com/)
+[![License](https://img.shields.io/badge/License-MIT-22c55e?style=for-the-badge)](LICENSE)
 
-[![Live Demo](https://img.shields.io/badge/Live_Demo-Visit_Portfolio-6366f1?style=for-the-badge)](https://syahrilarfianalmazril.vercel.app)
-[![GitHub](https://img.shields.io/badge/GitHub-Arfazrll-181717?style=for-the-badge&logo=github)](https://github.com/Arfazrll)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin)](https://linkedin.com/in/syahril-arfian-almazril)
+[![Documentation](https://img.shields.io/badge/Documentation-Official_Guides-60a5fa?style=for-the-badge)](https://www.yeneschooldocumentation.vercel.app)
+[![Telegram Bot](https://img.shields.io/badge/Telegram_Bot-@yeneschool__bot-229ED9?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/yeneschool_bot)
 
 ---
-
-![GitHub last commit](https://img.shields.io/github/last-commit/Arfazrll/PersonalBlog?style=flat-square&color=6366f1)
-![GitHub repo size](https://img.shields.io/github/repo-size/Arfazrll/PersonalBlog?style=flat-square&color=a855f7)
-![GitHub stars](https://img.shields.io/github/stars/Arfazrll/PersonalBlog?style=flat-square&color=f59e0b)
-![License](https://img.shields.io/badge/license-MIT-22c55e?style=flat-square)
 
 </div>
 
----
+## Overview
 
-## Executive Summary
+**YeneSchool OS** is Ethiopia's premier institutional School Operating System engineered by **HUMAN Tech PLC** in Addis Ababa. Designed from the ground up for the operational, academic, and financial reality of Ethiopian schools, YeneSchool puts school operations on true autopilot.
 
-A production-grade, highly interactive portfolio application engineered to showcase technical expertise across Artificial Intelligence, Data Science, and Modern Software Engineering. Moving beyond traditional static documentation, this platform delivers an immersive, high-performance user experience powered by WebGL physics simulations, real-time data integrations, and an autonomous AI chatbot assistant.
-
----
-
-## System Architecture & Technologies
-
-The repository is built on a modern, decoupled architecture designed for maximal performance, scalability, and maintainability.
-
-### Core Framework
-- **Next.js 16 (App Router):** Leverages server-side rendering (SSR), static site generation (SSG), and advanced caching mechanisms for optimal content delivery.
-- **React 19 & TypeScript:** Enforces strict type safety and modern reactive paradigms across 50+ custom UI components.
-
-### 3D Graphics & Physics Simulation
-- **Three.js & React Three Fiber (R3F):** Powers the core WebGL rendering engine.
-- **Rapier Physics:** Integrates real-time, deterministic physics simulations (e.g., interactive 3D Lanyard and structural models).
-- **Custom GLSL Shaders:** Utilized for bespoke background elements, including the Hyperspeed and warp effects.
-
-### UI/UX Choreography
-- **Framer Motion & GSAP:** Drives complex, timeline-based choreographies, micro-interactions, and fluid page transitions.
-- **Tailwind CSS & Shadcn UI:** Provides a scalable, utility-first design system utilizing robust Radix UI accessibility primitives.
-- **Lenis:** Implements smooth, premium scrolling dynamics.
-
-### System Integrations & APIs
-- **Dual-LLM AI Chatbot Architecture:** Integrates Groq (LLaMA 3.1) as the primary provider with an automatic failover to Google Gemini (1.5 Flash), utilizing retrieval-augmented generation context mapped directly from `portfolio.ts`.
-- **GraphQL & REST Pipelines:** Consumes GitHub GraphQL for repository statistics and WakaTime API for real-time code telemetry.
-- **Next-Intl:** Provides a complete bilingual experience (EN/ID) driven by client-side browser header detection.
+While the campus sleeps, the **Autonomous AI Director** audits attendance, flags syllabus pacing delays, drafts 5E pedagogical lesson plans, evaluates student risk factors, and reconciles CBE Birr and Telebirr tuition payments. By 07:00 AM, leadership receives an executive briefing with pre-resolved operational actions—zero manual spreadsheets required.
 
 ---
 
-## Project Structure
+## Key Pillars & Core Capabilities
 
-```text
-PersonalBlog/
+### 1. Autonomous AI Director & Morning Briefings
+- **Pre-Dawn Audits:** Scans yesterday's attendance, syllabus milestones, and cashier receipts automatically.
+- **Executive Cockpit:** Daily 07:00 AM synthesized briefing with actionable remediation proposals for school principals and directors.
+- **Natural Language Assistant:** Interactive institutional AI assistant trained on platform workflows and MOE directives.
+
+### 2. Dual Ethiopian & Gregorian Calendar Engine
+- **Native 13-Month Support:** Built-in Meskerem–Pagume calendar navigation alongside Gregorian timestamps.
+- **Ethiopian MOE Report Cards:** Automated generation of official Ethiopian Ministry of Education term reports and transcripts.
+
+### 3. Adaptive Student Remediation & Exam Bank
+- **Grade 12 National Exam Prep:** Comprehensive question bank mapped to the Ethiopian national curriculum.
+- **Early Risk Detection:** Identifies struggling students across continuous assessment periods and generates targeted booster packages.
+
+### 4. Telebirr & CBE Cashless Finance
+- **Automated Payment Reconciliation:** Instant cryptographic verification of Ethio Telecom Telebirr and Commercial Bank of Ethiopia (CBE Birr) tuition transactions.
+- **Zero Reconciliation Leakage:** Direct matching of bank reference tokens against student ledgers with automated parent SMS/Telegram receipts.
+
+### 5. Offline-First Edge Resilience
+- **Local Gateway Sync:** Campuses continue attendance scanning and grade recording even during internet disruptions.
+- **Conflict-Free Synchronization:** Automatic bi-directional cloud synchronization as soon as connectivity resumes.
+
+---
+
+## Platform Architecture
+
+```
 ├── src/
-│   ├── app/                          # Next.js 16 App Router Entry Points
-│   │   ├── api/                      # Backend API Routes (Chatbot, GitHub, WakaTime)
-│   │   ├── projects/                 # Comprehensive Project Directory
-│   │   ├── experience/               # Career Timeline and Analytics
-│   │   ├── skills/                   # Technical Skill Radar
-│   │   ├── resume/                   # Custom PDF Rendering Engine (react-pdf)
-│   │   └── blog/                     # MDX/Markdown Article Renderer
+│   ├── app/                      # Next.js 16 App Router
+│   │   ├── api/                  # Edge & Serverless API Routes
+│   │   ├── blog/                 # Educational Case Studies & Implementation Insights
+│   │   ├── contact/              # Institutional Demo Booking & Leadership Inquiry
+│   │   ├── gallery/              # Live System UI Tour & Dashboard Walkthrough
+│   │   ├── privacy/              # Student & Institutional Data Privacy Policy
+│   │   ├── projects/             # 24 Integrated Core Modules Catalog
+│   │   ├── terms/                # Institutional Master Subscription Terms
+│   │   └── page.tsx              # Main Platform Landing & Cockpit Showcase
 │   ├── components/
-│   │   ├── three/                    # WebGL & R3F Components (Lanyard, Splash)
-│   │   ├── sections/                 # Primary Page Layout Structures
-│   │   └── ui/                       # 50+ Custom Shadcn & Animated Primitives
-│   ├── data/
-│   │   └── portfolio.ts              # Centralized JSON/TS Data Store
-│   ├── hooks/                        # Custom React Hooks (Performance, Intersection)
-│   └── styles/                       # Global CSS & Tailwind Directives
-├── public/                           # Static Assets (Images, 3D Models, PDFs)
-├── next.config.ts                    # Next.js Optimization Configuration
-└── tailwind.config.ts                # Custom Design System Configurations
+│   │   ├── layout/               # Header, MegaNav, Footer, AI Chatbot
+│   │   ├── sections/             # HeroVisual, Pricing, IdentitySequence, Stats
+│   │   └── ui/                   # High-performance 3D & interactive visual primitives
+│   ├── data/                     # Unified modules database & platform schema
+│   └── styles/                   # Tailwind configuration & global CSS
+├── public/                       # High-resolution platform dashboards & vector logos
 ```
 
 ---
 
-## Key Features
+## 24 Unified Core Modules
 
-### 1. Interactive 3D Environments
-Implements hardware-accelerated 3D models using `@react-three/drei` and `@react-three/fiber`. Features include a physics-simulated identification badge that responds to cursor velocity and window constraints in real time.
+YeneSchool integrates 24 purpose-built modules into a single, cohesive institutional platform:
 
-### 2. Autonomous Portfolio Chatbot
-An intelligent conversational agent deployed via the `/api/chat` route. The system builds a dynamic context window from the static `portfolio.ts` database and processes natural language queries using a redundant Dual-LLM infrastructure.
-
-### 3. Real-Time Telemetry
-Dashboards across the platform retrieve and display real-time engineering metrics, utilizing authenticated GraphQL requests to GitHub (activity heatmaps, language breakdown) and WakaTime (coding hours, IDE preferences).
-
-### 4. Interactive PDF Document Viewer
-A custom-built document rendering engine utilizing `react-pdf`, allowing users to zoom, rotate, search, and download the resume natively within the browser application without relying on external plugins.
-
-### 5. Performance Diagnostics
-The application implements a `usePerformance` hook to evaluate client hardware capabilities in real time, automatically disabling intensive WebGL shaders and complex GSAP animations on low-power or mobile devices to preserve battery life and maintain stable framerates.
+1. **Academic Management** — Grade 1–12 structure, period timetables, and academic calendar.
+2. **Student Promotion & Risk AI** — Predictive remediation and automated grade progression.
+3. **5E Lesson Plan Generator** — AI-assisted lesson preparation for teachers.
+4. **Attendance & Clock-In** — Offline gate checks, period tracking, and parent absence alerts.
+5. **Cashless Tuition Engine** — Telebirr and CBE Birr instant payment reconciliation.
+6. **National Exam Bank** — Grade 8 and Grade 12 practice sets with step-by-step solutions.
+7. **Parent Telegram Portal** — Real-time grade notifications and tuition receipt delivery.
+8. **Multi-Campus Network** — Centralized cross-branch administration and regional telemetry.
+*(and 16 additional modules covering HR, inventory, library, transport, and grading).*
 
 ---
 
-## Local Development Setup
+## Getting Started
 
 ### Prerequisites
-- Node.js >= 18.0.0
-- npm >= 9.0.0
+- Node.js 18.18+ or 20+
+- npm / yarn / pnpm
 
 ### Installation
 
-1. **Clone the repository:**
-   ```bash
-   git clone https://github.com/Arfazrll/PersonalBlog.git
-   cd PersonalBlog
-   ```
-
-2. **Install dependencies:**
-   ```bash
-   npm install
-   ```
-
-3. **Configure Environment Variables:**
-   Create a `.env.local` file in the root directory.
-
-   ```env
-   NEXT_PUBLIC_GITHUB_USERNAME=your_username
-   GITHUB_TOKEN=your_personal_access_token
-   WAKATIME_API_KEY=your_wakatime_key
-   GROQ_API_KEY=your_groq_key
-   GEMINI_API_KEY=your_gemini_key
-   ```
-
-4. **Initialize Development Server:**
-   ```bash
-   npm run dev
-   ```
-   Navigate to `http://localhost:3000` to interact with the application.
-
-### Production Build
-Execute the following to compile and serve the optimized application bundle:
 ```bash
-npm run build
-npm start
+# Clone the repository
+git clone https://github.com/usman1121/sms.git
+cd sms
+
+# Install dependencies
+npm install
+
+# Run development server
+npm run dev
 ```
 
----
-
-## Project Showcase Overview
-
-The platform currently documents **19 technical projects** spanning multiple engineering disciplines:
-
-| Discipline | Notable Projects | Core Technologies |
-|------------|------------------|-------------------|
-| **Artificial Intelligence** | DocsInsight Engine, NeuroVision, Hand Gesture Recognition | Python, TensorFlow, OpenCV, LangChain |
-| **Data Science & Analytics** | Credit Risk Analysis, MyTelkomsel Sentiment, Data Analyst Dashboard | Python, LSTM, Pandas, Plotly |
-| **Software Engineering** | Donasiaku, POLABDC SaaS, Digilibzx | Laravel, Next.js, Go, PostgreSQL, Prisma |
-| **IoT & Embedded Systems** | TerraFlow Platform, Smart Motion Detection | ESP32, Raspberry Pi, MQTT, C++ |
+Open [http://localhost:3000](http://localhost:3000) in your browser to explore the platform.
 
 ---
 
-## License
+## Institutional Compliance & Data Security
 
-This project is licensed under the [MIT License](LICENSE).
+- **Student Data Privacy:** We never sell, advertise, or commercialize student data. All academic archives remain the sovereign property of the school.
+- **Bank-Grade Encryption:** AES-256 encryption at rest and TLS 1.3 in transit across all server nodes.
+- **MOE Alignment:** Standardized reporting compliance with Ethiopian Ministry of Education regulations.
+
+For complete details, review our [Privacy Policy](src/app/privacy/page.tsx) and [Terms of Service](src/app/terms/page.tsx).
+
+---
+
+## Contact & Head Office
+
+- **Provider:** HUMAN Tech PLC
+- **Location:** Bole Subcity, Addis Ababa, Ethiopia
+- **Email:** [contact@yeneschool.com](mailto:contact@yeneschool.com)
+- **Telegram Bot:** [@yeneschool_bot](https://t.me/yeneschool_bot)
+- **Documentation:** [yeneschooldocumentation.vercel.app](https://www.yeneschooldocumentation.vercel.app)
+
+---
 
 <div align="center">
-  <p>Engineered by Syahril Arfian Almazril</p>
+
+© 2026 YeneSchool OS • HUMAN Tech PLC. All rights reserved.
+
 </div>
